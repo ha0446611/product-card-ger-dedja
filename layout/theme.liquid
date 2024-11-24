@@ -338,9 +338,14 @@ body {
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+
+    {{ 'main.scss' | asset_url | stylesheet_tag }}
+    {{ 'main.js' | asset_url | script_tag }}
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+    Test DEV
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>

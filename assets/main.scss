@@ -1,0 +1,11 @@
+// Default styles for product card
+product-card {
+    display: block;
+    margin: 16px auto;
+    max-width: 300px;
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+}
