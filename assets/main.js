@@ -23,26 +23,26 @@ class ProductCard extends HTMLElement {
                     max-width: 300px;
                     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                 }
-                img {
+                product-card img {
                     max-width: 100%;
                     border-radius: 8px;
                 }
-                .product-title {
+                product-card .product-title {
                     font-size: 18px;
                     font-weight: bold;
                     margin: 12px 0;
                 }
-                .product-price {
+                product-card .product-price {
                     font-size: 16px;
                     color: #555;
                     margin: 8px 0;
                 }
-                .product-link {
+                product-card .product-link {
                     text-decoration: none;
                     color: #007BFF;
                     font-weight: bold;
                 }
-                .product-link:hover {
+                product-card .product-link:hover {
                     text-decoration: underline;
                 }
             </style>
