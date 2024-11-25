@@ -14,15 +14,7 @@ class ProductCard extends HTMLElement {
         // Template for the product card
         this.shadowRoot.innerHTML = `
             <style>
-                :host {
-                    display: block;
-                    font-family: Arial, sans-serif;
-                    border: 1px solid #ccc;
-                    border-radius: 8px;
-                    padding: 16px;
-                    max-width: 300px;
-                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                }
+              
                 product-card img {
                     max-width: 100%;
                     border-radius: 8px;
